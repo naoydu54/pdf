@@ -1,0 +1,6 @@
+services:
+    ip_pdf.factory:
+        class: Ip\PdfBundle\Factory\IpPdfFactory
+        arguments:
+            - '%ip_pdf.pages%'
+            - '%ip_pdf.default_page%'

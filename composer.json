@@ -1,0 +1,20 @@
+{
+    "name": "ip/pdfbundle",
+    "description" : "Bundle permettant d'inclure HTML2PDF dans un service",
+    "type": "symfony-bundle",
+    "require": {
+        "spipu/html2pdf": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "arthur",
+            "email": "arthur@info-plus.fr"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Ip\\PdfBundle\\" : ""
+        }
+    }
+}
